@@ -1,17 +1,18 @@
-- git 저장소 만드는 명령어: git init
-- 현재 폴더안에 있는 파일 확인: ls
-- 깃에 추적기 달기:git add 파일이름
-- git status: 
-- clear: 
-- git commit -m "첫번째 버전"
+-  git init: git 저장소 만드는 명령어
+- ls : 현재 폴더안에 있는 파일 확인
+- git add [파일이름] : 파일을 추적할 수 있음
+- git status: 파일 상태 확인
+- clear: 명령창 초기화
+- git commit -m "[커밋 메세지]" : 커밋 생성
 - git config --global user.name "사용자 이름"
 - git config --global user.email "사용자이메일"
 - git commit -am "두번째 버전" : 이미 추적중인것은 따로 조치를 안취해도 됨
-- git checkout 해시값 : 이전 상태로 돌아갈 수 있다.
+- git checkout [해시값] : 이전 상태로 돌아갈 수 있다.
 - git checkout master: 마지막에 작업했던 상태로 돌리기
-- git branch -M 원하는 작업자 이름 :  작업자 이름 바꾸는 방법
-- git remote add origin https://github.com/qresfcgrrddre/github_ttest.git
- : 등록하는 방법
+- git branch -M [원하는 작업자 이름] :  작업자 이름 바꾸는 방법
+- git remote add origin [github 레포지 주소]: 원격 저장소에 연결
 - git remote get-url origin: 연결된 주소 확인
-- git push -u origin main: 작업한 파일 깃허브에 올리기
-- git clone 주소: 깃허브에 연결 & 내용 복사해서 그대로  받아옴
+
+- git push orign 브랜치명: 변경사항 원격 서버에 업로드
+- git push -u origin [브랜치명]:  원격 저장소에 [브랜치명]의 브랜치의 커밋을 올린다
+- git clone [원격저장소 주소]: 깃허브에 연결 & 내용 복사해서 그대로  받아옴
